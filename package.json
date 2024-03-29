@@ -26,7 +26,8 @@
     "dev": "tsc --watch",
     "build": "tsc",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts ./src",
-    "markdown-toc": "markdown-toc -i README.md"
+    "markdown-toc": "markdown-toc -i README.md",
+    "prepare": "npm run build"
   },
   "standard": {
     "globals": [
